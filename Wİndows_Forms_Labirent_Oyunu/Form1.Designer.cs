@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            Start_lbl = new Label();
+            Finish_lbl = new Label();
             label103 = new Label();
             label102 = new Label();
             label101 = new Label();
@@ -132,8 +134,6 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            Finish_lbl = new Label();
-            Start_lbl = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -251,932 +251,14 @@
             panel1.Size = new Size(598, 614);
             panel1.TabIndex = 0;
             // 
-            // label103
-            // 
-            label103.BackColor = Color.MediumAquamarine;
-            label103.Location = new Point(-2, 9);
-            label103.Name = "label103";
-            label103.Size = new Size(5, 50);
-            label103.TabIndex = 102;
-            label103.Tag = "wall";
-            // 
-            // label102
-            // 
-            label102.BackColor = Color.MediumAquamarine;
-            label102.Location = new Point(591, 560);
-            label102.Name = "label102";
-            label102.Size = new Size(5, 50);
-            label102.TabIndex = 101;
-            label102.Tag = "wall";
-            // 
-            // label101
-            // 
-            label101.BackColor = Color.MediumAquamarine;
-            label101.Location = new Point(334, 327);
-            label101.Name = "label101";
-            label101.Size = new Size(42, 15);
-            label101.TabIndex = 100;
-            label101.Tag = "wall";
-            // 
-            // label100
-            // 
-            label100.BackColor = Color.MediumAquamarine;
-            label100.Location = new Point(273, 463);
-            label100.Name = "label100";
-            label100.Size = new Size(15, 46);
-            label100.TabIndex = 99;
-            label100.Tag = "wall";
-            // 
-            // label99
-            // 
-            label99.BackColor = Color.MediumAquamarine;
-            label99.Location = new Point(490, 331);
-            label99.Name = "label99";
-            label99.Size = new Size(31, 15);
-            label99.TabIndex = 98;
-            label99.Tag = "wall";
-            // 
-            // label98
-            // 
-            label98.BackColor = Color.MediumAquamarine;
-            label98.Location = new Point(431, 331);
-            label98.Name = "label98";
-            label98.Size = new Size(42, 15);
-            label98.TabIndex = 97;
-            label98.Tag = "wall";
-            // 
-            // label97
-            // 
-            label97.BackColor = Color.MediumAquamarine;
-            label97.Location = new Point(377, 288);
-            label97.Name = "label97";
-            label97.Size = new Size(175, 15);
-            label97.TabIndex = 96;
-            label97.Tag = "wall";
-            // 
-            // label94
-            // 
-            label94.BackColor = Color.MediumAquamarine;
-            label94.Location = new Point(440, 532);
-            label94.Name = "label94";
-            label94.Size = new Size(15, 78);
-            label94.TabIndex = 95;
-            label94.Tag = "wall";
-            // 
-            // label95
-            // 
-            label95.BackColor = Color.MediumAquamarine;
-            label95.Location = new Point(458, 292);
-            label95.Name = "label95";
-            label95.Size = new Size(15, 50);
-            label95.TabIndex = 94;
-            label95.Tag = "wall";
-            // 
-            // label96
-            // 
-            label96.BackColor = Color.MediumAquamarine;
-            label96.Location = new Point(490, 522);
-            label96.Name = "label96";
-            label96.Size = new Size(15, 44);
-            label96.TabIndex = 93;
-            label96.Tag = "wall";
-            // 
-            // label93
-            // 
-            label93.BackColor = Color.MediumAquamarine;
-            label93.Location = new Point(537, 261);
-            label93.Name = "label93";
-            label93.Size = new Size(15, 84);
-            label93.TabIndex = 92;
-            label93.Tag = "wall";
-            // 
-            // label92
-            // 
-            label92.BackColor = Color.MediumAquamarine;
-            label92.Location = new Point(516, 205);
-            label92.Name = "label92";
-            label92.Size = new Size(15, 35);
-            label92.TabIndex = 91;
-            label92.Tag = "wall";
-            // 
-            // label91
-            // 
-            label91.BackColor = Color.MediumAquamarine;
-            label91.Location = new Point(524, 558);
-            label91.Name = "label91";
-            label91.Size = new Size(15, 25);
-            label91.TabIndex = 90;
-            label91.Tag = "wall";
-            // 
-            // label87
-            // 
-            label87.BackColor = Color.MediumAquamarine;
-            label87.Location = new Point(400, 532);
-            label87.Name = "label87";
-            label87.Size = new Size(55, 15);
-            label87.TabIndex = 89;
-            label87.Tag = "wall";
-            // 
-            // label88
-            // 
-            label88.BackColor = Color.MediumAquamarine;
-            label88.Location = new Point(355, 568);
-            label88.Name = "label88";
-            label88.Size = new Size(60, 15);
-            label88.TabIndex = 88;
-            label88.Tag = "wall";
-            // 
-            // label89
-            // 
-            label89.BackColor = Color.MediumAquamarine;
-            label89.Location = new Point(534, 558);
-            label89.Name = "label89";
-            label89.Size = new Size(62, 15);
-            label89.TabIndex = 87;
-            label89.Tag = "wall";
-            // 
-            // label90
-            // 
-            label90.BackColor = Color.MediumAquamarine;
-            label90.Location = new Point(377, 378);
-            label90.Name = "label90";
-            label90.Size = new Size(214, 15);
-            label90.TabIndex = 86;
-            label90.Tag = "wall";
-            // 
-            // label84
-            // 
-            label84.BackColor = Color.MediumAquamarine;
-            label84.Location = new Point(188, 494);
-            label84.Name = "label84";
-            label84.Size = new Size(15, 79);
-            label84.TabIndex = 85;
-            label84.Tag = "wall";
-            // 
-            // label85
-            // 
-            label85.BackColor = Color.MediumAquamarine;
-            label85.Location = new Point(458, 416);
-            label85.Name = "label85";
-            label85.Size = new Size(15, 53);
-            label85.TabIndex = 84;
-            label85.Tag = "wall";
-            // 
-            // label86
-            // 
-            label86.BackColor = Color.MediumAquamarine;
-            label86.Location = new Point(490, 331);
-            label86.Name = "label86";
-            label86.Size = new Size(15, 138);
-            label86.TabIndex = 83;
-            label86.Tag = "wall";
-            // 
-            // label81
-            // 
-            label81.BackColor = Color.MediumAquamarine;
-            label81.Location = new Point(260, 378);
-            label81.Name = "label81";
-            label81.Size = new Size(15, 51);
-            label81.TabIndex = 82;
-            label81.Tag = "wall";
-            // 
-            // label82
-            // 
-            label82.BackColor = Color.MediumAquamarine;
-            label82.Location = new Point(313, 416);
-            label82.Name = "label82";
-            label82.Size = new Size(15, 59);
-            label82.TabIndex = 81;
-            label82.Tag = "wall";
-            // 
-            // label83
-            // 
-            label83.BackColor = Color.MediumAquamarine;
-            label83.Location = new Point(209, 416);
-            label83.Name = "label83";
-            label83.Size = new Size(15, 59);
-            label83.TabIndex = 80;
-            label83.Tag = "wall";
-            // 
-            // label78
-            // 
-            label78.BackColor = Color.MediumAquamarine;
-            label78.Location = new Point(534, 424);
-            label78.Name = "label78";
-            label78.Size = new Size(15, 108);
-            label78.TabIndex = 79;
-            label78.Tag = "wall";
-            // 
-            // label79
-            // 
-            label79.BackColor = Color.MediumAquamarine;
-            label79.Location = new Point(347, 540);
-            label79.Name = "label79";
-            label79.Size = new Size(15, 72);
-            label79.TabIndex = 78;
-            label79.Tag = "wall";
-            // 
-            // label80
-            // 
-            label80.BackColor = Color.MediumAquamarine;
-            label80.Location = new Point(400, 509);
-            label80.Name = "label80";
-            label80.Size = new Size(15, 38);
-            label80.TabIndex = 77;
-            label80.Tag = "wall";
-            // 
-            // label77
-            // 
-            label77.BackColor = Color.MediumAquamarine;
-            label77.Location = new Point(315, 494);
-            label77.Name = "label77";
-            label77.Size = new Size(15, 79);
-            label77.TabIndex = 76;
-            label77.Tag = "wall";
-            // 
-            // label76
-            // 
-            label76.BackColor = Color.MediumAquamarine;
-            label76.Location = new Point(416, 455);
-            label76.Name = "label76";
-            label76.Size = new Size(15, 54);
-            label76.TabIndex = 75;
-            label76.Tag = "wall";
-            // 
-            // label75
-            // 
-            label75.BackColor = Color.MediumAquamarine;
-            label75.Location = new Point(347, 455);
-            label75.Name = "label75";
-            label75.Size = new Size(15, 54);
-            label75.TabIndex = 74;
-            label75.Tag = "wall";
-            // 
-            // label74
-            // 
-            label74.BackColor = Color.MediumAquamarine;
-            label74.Location = new Point(431, 225);
-            label74.Name = "label74";
-            label74.Size = new Size(100, 15);
-            label74.TabIndex = 73;
-            label74.Tag = "wall";
-            // 
-            // label73
-            // 
-            label73.BackColor = Color.MediumAquamarine;
-            label73.Location = new Point(315, 494);
-            label73.Name = "label73";
-            label73.Size = new Size(234, 15);
-            label73.TabIndex = 72;
-            label73.Tag = "wall";
-            // 
-            // label72
-            // 
-            label72.BackColor = Color.MediumAquamarine;
-            label72.Location = new Point(315, 416);
-            label72.Name = "label72";
-            label72.Size = new Size(158, 15);
-            label72.TabIndex = 71;
-            label72.Tag = "wall";
-            // 
-            // label71
-            // 
-            label71.BackColor = Color.MediumAquamarine;
-            label71.Location = new Point(188, 558);
-            label71.Name = "label71";
-            label71.Size = new Size(100, 15);
-            label71.TabIndex = 70;
-            label71.Tag = "wall";
-            // 
-            // label70
-            // 
-            label70.BackColor = Color.MediumAquamarine;
-            label70.Location = new Point(285, 525);
-            label70.Name = "label70";
-            label70.Size = new Size(43, 15);
-            label70.TabIndex = 69;
-            label70.Tag = "wall";
-            // 
-            // label69
-            // 
-            label69.BackColor = Color.MediumAquamarine;
-            label69.Location = new Point(136, 460);
-            label69.Name = "label69";
-            label69.Size = new Size(178, 15);
-            label69.TabIndex = 68;
-            label69.Tag = "wall";
-            // 
-            // label68
-            // 
-            label68.BackColor = Color.MediumAquamarine;
-            label68.Location = new Point(188, 494);
-            label68.Name = "label68";
-            label68.Size = new Size(100, 15);
-            label68.TabIndex = 67;
-            label68.Tag = "wall";
-            // 
-            // label67
-            // 
-            label67.BackColor = Color.MediumAquamarine;
-            label67.Location = new Point(458, 454);
-            label67.Name = "label67";
-            label67.Size = new Size(36, 15);
-            label67.TabIndex = 66;
-            label67.Tag = "wall";
-            // 
-            // label66
-            // 
-            label66.BackColor = Color.MediumAquamarine;
-            label66.Location = new Point(475, 522);
-            label66.Name = "label66";
-            label66.Size = new Size(74, 15);
-            label66.TabIndex = 65;
-            label66.Tag = "wall";
-            // 
-            // label65
-            // 
-            label65.BackColor = Color.MediumAquamarine;
-            label65.Location = new Point(516, 190);
-            label65.Name = "label65";
-            label65.Size = new Size(33, 15);
-            label65.TabIndex = 64;
-            label65.Tag = "wall";
-            // 
-            // label64
-            // 
-            label64.BackColor = Color.MediumAquamarine;
-            label64.Location = new Point(82, 421);
-            label64.Name = "label64";
-            label64.Size = new Size(15, 116);
-            label64.TabIndex = 63;
-            label64.Tag = "wall";
-            // 
-            // label63
-            // 
-            label63.BackColor = Color.MediumAquamarine;
-            label63.Location = new Point(238, 494);
-            label63.Name = "label63";
-            label63.Size = new Size(15, 46);
-            label63.TabIndex = 62;
-            label63.Tag = "wall";
-            // 
-            // label62
-            // 
-            label62.BackColor = Color.MediumAquamarine;
-            label62.Location = new Point(299, 278);
-            label62.Name = "label62";
-            label62.Size = new Size(15, 68);
-            label62.TabIndex = 61;
-            label62.Tag = "wall";
-            // 
-            // label61
-            // 
-            label61.BackColor = Color.MediumAquamarine;
-            label61.Location = new Point(136, 460);
-            label61.Name = "label61";
-            label61.Size = new Size(15, 38);
-            label61.TabIndex = 60;
-            label61.Tag = "wall";
-            // 
-            // label60
-            // 
-            label60.BackColor = Color.MediumAquamarine;
-            label60.Location = new Point(118, 558);
-            label60.Name = "label60";
-            label60.Size = new Size(15, 45);
-            label60.TabIndex = 59;
-            label60.Tag = "wall";
-            // 
-            // label59
-            // 
-            label59.BackColor = Color.MediumAquamarine;
-            label59.Location = new Point(377, 416);
-            label59.Name = "label59";
-            label59.Size = new Size(15, 59);
-            label59.TabIndex = 58;
-            label59.Tag = "wall";
-            // 
-            // label58
-            // 
-            label58.BackColor = Color.MediumAquamarine;
-            label58.Location = new Point(33, 558);
-            label58.Name = "label58";
-            label58.Size = new Size(100, 15);
-            label58.TabIndex = 57;
-            label58.Tag = "wall";
-            // 
-            // label57
-            // 
-            label57.BackColor = Color.MediumAquamarine;
-            label57.Location = new Point(3, 454);
-            label57.Name = "label57";
-            label57.Size = new Size(58, 15);
-            label57.TabIndex = 56;
-            label57.Tag = "wall";
-            // 
-            // label56
-            // 
-            label56.BackColor = Color.MediumAquamarine;
-            label56.Location = new Point(33, 494);
-            label56.Name = "label56";
-            label56.Size = new Size(64, 15);
-            label56.TabIndex = 55;
-            label56.Tag = "wall";
-            // 
-            // label55
-            // 
-            label55.BackColor = Color.MediumAquamarine;
-            label55.Location = new Point(82, 522);
-            label55.Name = "label55";
-            label55.Size = new Size(121, 15);
-            label55.TabIndex = 54;
-            label55.Tag = "wall";
-            // 
-            // label54
-            // 
-            label54.BackColor = Color.MediumAquamarine;
-            label54.Location = new Point(175, 378);
-            label54.Name = "label54";
-            label54.Size = new Size(174, 15);
-            label54.TabIndex = 53;
-            label54.Tag = "wall";
-            // 
-            // label53
-            // 
-            label53.BackColor = Color.MediumAquamarine;
-            label53.Location = new Point(46, 421);
-            label53.Name = "label53";
-            label53.Size = new Size(137, 15);
-            label53.TabIndex = 52;
-            label53.Tag = "wall";
-            // 
-            // label52
-            // 
-            label52.BackColor = Color.MediumAquamarine;
-            label52.Location = new Point(299, 277);
-            label52.Name = "label52";
-            label52.Size = new Size(50, 15);
-            label52.TabIndex = 51;
-            label52.Tag = "wall";
-            // 
-            // label51
-            // 
-            label51.BackColor = Color.MediumAquamarine;
-            label51.Location = new Point(209, 331);
-            label51.Name = "label51";
-            label51.Size = new Size(105, 15);
-            label51.TabIndex = 50;
-            label51.Tag = "wall";
-            // 
-            // label50
-            // 
-            label50.BackColor = Color.MediumAquamarine;
-            label50.Location = new Point(168, 175);
-            label50.Name = "label50";
-            label50.Size = new Size(56, 15);
-            label50.TabIndex = 49;
-            label50.Tag = "wall";
-            // 
-            // label49
-            // 
-            label49.BackColor = Color.MediumAquamarine;
-            label49.Location = new Point(490, 154);
-            label49.Name = "label49";
-            label49.Size = new Size(31, 15);
-            label49.TabIndex = 48;
-            label49.Tag = "wall";
-            // 
-            // label48
-            // 
-            label48.BackColor = Color.MediumAquamarine;
-            label48.Location = new Point(10, 378);
-            label48.Name = "label48";
-            label48.Size = new Size(123, 15);
-            label48.TabIndex = 47;
-            label48.Tag = "wall";
-            // 
-            // label47
-            // 
-            label47.BackColor = Color.MediumAquamarine;
-            label47.Location = new Point(506, 128);
-            label47.Name = "label47";
-            label47.Size = new Size(78, 15);
-            label47.TabIndex = 46;
-            label47.Tag = "wall";
-            // 
-            // label46
-            // 
-            label46.BackColor = Color.MediumAquamarine;
-            label46.Location = new Point(479, 101);
-            label46.Name = "label46";
-            label46.Size = new Size(42, 15);
-            label46.TabIndex = 45;
-            label46.Tag = "wall";
-            // 
-            // label45
-            // 
-            label45.BackColor = Color.MediumAquamarine;
-            label45.Location = new Point(400, 186);
-            label45.Name = "label45";
-            label45.Size = new Size(15, 172);
-            label45.TabIndex = 44;
-            label45.Tag = "wall";
-            // 
-            // label44
-            // 
-            label44.BackColor = Color.MediumAquamarine;
-            label44.Location = new Point(440, 55);
-            label44.Name = "label44";
-            label44.Size = new Size(15, 146);
-            label44.TabIndex = 43;
-            label44.Tag = "wall";
-            // 
-            // label43
-            // 
-            label43.BackColor = Color.MediumAquamarine;
-            label43.Location = new Point(506, 44);
-            label43.Name = "label43";
-            label43.Size = new Size(15, 45);
-            label43.TabIndex = 42;
-            label43.Tag = "wall";
-            // 
-            // label42
-            // 
-            label42.BackColor = Color.MediumAquamarine;
-            label42.Location = new Point(506, 116);
-            label42.Name = "label42";
-            label42.Size = new Size(15, 53);
-            label42.TabIndex = 41;
-            label42.Tag = "wall";
-            // 
-            // label41
-            // 
-            label41.BackColor = Color.MediumAquamarine;
-            label41.Location = new Point(484, 154);
-            label41.Name = "label41";
-            label41.Size = new Size(10, 86);
-            label41.TabIndex = 40;
-            label41.Tag = "wall";
-            // 
-            // label40
-            // 
-            label40.BackColor = Color.MediumAquamarine;
-            label40.Location = new Point(33, 540);
-            label40.Name = "label40";
-            label40.Size = new Size(15, 33);
-            label40.TabIndex = 39;
-            label40.Tag = "wall";
-            // 
-            // label39
-            // 
-            label39.BackColor = Color.MediumAquamarine;
-            label39.Location = new Point(334, 309);
-            label39.Name = "label39";
-            label39.Size = new Size(15, 84);
-            label39.TabIndex = 38;
-            label39.Tag = "wall";
-            // 
-            // label38
-            // 
-            label38.BackColor = Color.MediumAquamarine;
-            label38.Location = new Point(209, 290);
-            label38.Name = "label38";
-            label38.Size = new Size(15, 55);
-            label38.TabIndex = 37;
-            label38.Tag = "wall";
-            // 
-            // label37
-            // 
-            label37.BackColor = Color.MediumAquamarine;
-            label37.Location = new Point(125, 330);
-            label37.Name = "label37";
-            label37.Size = new Size(15, 63);
-            label37.TabIndex = 36;
-            label37.Tag = "wall";
-            // 
-            // label36
-            // 
-            label36.BackColor = Color.MediumAquamarine;
-            label36.Location = new Point(168, 330);
-            label36.Name = "label36";
-            label36.Size = new Size(15, 106);
-            label36.TabIndex = 35;
-            label36.Tag = "wall";
-            // 
-            // label35
-            // 
-            label35.BackColor = Color.MediumAquamarine;
-            label35.Location = new Point(553, 35);
-            label35.Name = "label35";
-            label35.Size = new Size(31, 15);
-            label35.TabIndex = 34;
-            label35.Tag = "wall";
-            // 
-            // label34
-            // 
-            label34.BackColor = Color.MediumAquamarine;
-            label34.Location = new Point(506, 74);
-            label34.Name = "label34";
-            label34.Size = new Size(43, 15);
-            label34.TabIndex = 33;
-            label34.Tag = "wall";
-            // 
-            // label33
-            // 
-            label33.BackColor = Color.MediumAquamarine;
-            label33.Location = new Point(440, 128);
-            label33.Name = "label33";
-            label33.Size = new Size(38, 15);
-            label33.TabIndex = 32;
-            label33.Tag = "wall";
-            // 
-            // label32
-            // 
-            label32.BackColor = Color.MediumAquamarine;
-            label32.Location = new Point(440, 44);
-            label32.Name = "label32";
-            label32.Size = new Size(81, 15);
-            label32.TabIndex = 31;
-            label32.Tag = "wall";
-            // 
-            // label31
-            // 
-            label31.BackColor = Color.MediumAquamarine;
-            label31.Location = new Point(400, 186);
-            label31.Name = "label31";
-            label31.Size = new Size(55, 15);
-            label31.TabIndex = 30;
-            label31.Tag = "wall";
-            // 
-            // label30
-            // 
-            label30.BackColor = Color.MediumAquamarine;
-            label30.Location = new Point(207, 215);
-            label30.Name = "label30";
-            label30.Size = new Size(68, 15);
-            label30.TabIndex = 29;
-            label30.Tag = "wall";
-            // 
-            // label29
-            // 
-            label29.BackColor = Color.MediumAquamarine;
-            label29.Location = new Point(221, 128);
-            label29.Name = "label29";
-            label29.Size = new Size(100, 15);
-            label29.TabIndex = 28;
-            label29.Tag = "wall";
-            // 
-            // label28
-            // 
-            label28.BackColor = Color.MediumAquamarine;
-            label28.Location = new Point(309, 231);
-            label28.Name = "label28";
-            label28.Size = new Size(106, 15);
-            label28.TabIndex = 27;
-            label28.Tag = "wall";
-            // 
-            // label27
-            // 
-            label27.BackColor = Color.MediumAquamarine;
-            label27.Location = new Point(347, 127);
-            label27.Name = "label27";
-            label27.Size = new Size(60, 15);
-            label27.TabIndex = 26;
-            label27.Tag = "wall";
-            // 
-            // label26
-            // 
-            label26.BackColor = Color.MediumAquamarine;
-            label26.Location = new Point(260, 44);
-            label26.Name = "label26";
-            label26.Size = new Size(61, 15);
-            label26.TabIndex = 25;
-            label26.Tag = "wall";
-            // 
-            // label25
-            // 
-            label25.BackColor = Color.MediumAquamarine;
-            label25.Location = new Point(299, 87);
-            label25.Name = "label25";
-            label25.Size = new Size(50, 15);
-            label25.TabIndex = 24;
-            label25.Tag = "wall";
-            // 
-            // label24
-            // 
-            label24.BackColor = Color.MediumAquamarine;
-            label24.Location = new Point(168, 71);
-            label24.Name = "label24";
-            label24.Size = new Size(56, 15);
-            label24.TabIndex = 23;
-            label24.Tag = "wall";
-            // 
-            // label23
-            // 
-            label23.BackColor = Color.MediumAquamarine;
-            label23.Location = new Point(82, 290);
-            label23.Name = "label23";
-            label23.Size = new Size(142, 15);
-            label23.TabIndex = 22;
-            label23.Tag = "wall";
-            // 
-            // label22
-            // 
-            label22.BackColor = Color.MediumAquamarine;
-            label22.Location = new Point(61, 330);
-            label22.Name = "label22";
-            label22.Size = new Size(36, 15);
-            label22.TabIndex = 21;
-            label22.Tag = "wall";
-            // 
-            // label21
-            // 
-            label21.BackColor = Color.MediumAquamarine;
-            label21.Location = new Point(46, 231);
-            label21.Name = "label21";
-            label21.Size = new Size(94, 15);
-            label21.TabIndex = 20;
-            label21.Tag = "wall";
-            // 
-            // label20
-            // 
-            label20.BackColor = Color.MediumAquamarine;
-            label20.Location = new Point(46, 143);
-            label20.Name = "label20";
-            label20.Size = new Size(94, 15);
-            label20.TabIndex = 19;
-            label20.Tag = "wall";
-            // 
-            // label19
-            // 
-            label19.BackColor = Color.MediumAquamarine;
-            label19.Location = new Point(3, 187);
-            label19.Name = "label19";
-            label19.Size = new Size(94, 15);
-            label19.TabIndex = 18;
-            label19.Tag = "wall";
-            // 
-            // label18
-            // 
-            label18.BackColor = Color.MediumAquamarine;
-            label18.Location = new Point(61, 56);
-            label18.Name = "label18";
-            label18.Size = new Size(79, 15);
-            label18.TabIndex = 17;
-            label18.Tag = "wall";
-            // 
-            // label17
-            // 
-            label17.BackColor = Color.MediumAquamarine;
-            label17.Location = new Point(10, 88);
-            label17.Name = "label17";
-            label17.Size = new Size(51, 15);
-            label17.TabIndex = 16;
-            label17.Tag = "wall";
-            // 
-            // label16
-            // 
-            label16.BackColor = Color.MediumAquamarine;
-            label16.Location = new Point(46, 56);
-            label16.Name = "label16";
-            label16.Size = new Size(15, 32);
-            label16.TabIndex = 15;
-            label16.Tag = "wall";
-            // 
-            // label15
-            // 
-            label15.BackColor = Color.MediumAquamarine;
-            label15.Location = new Point(309, 128);
-            label15.Name = "label15";
-            label15.Size = new Size(15, 118);
-            label15.TabIndex = 14;
-            label15.Tag = "wall";
-            // 
-            // label14
-            // 
-            label14.BackColor = Color.MediumAquamarine;
-            label14.Location = new Point(347, 44);
-            label14.Name = "label14";
-            label14.Size = new Size(15, 146);
-            label14.TabIndex = 13;
-            label14.Tag = "wall";
-            // 
-            // label13
-            // 
-            label13.BackColor = Color.MediumAquamarine;
-            label13.Location = new Point(392, 13);
-            label13.Name = "label13";
-            label13.Size = new Size(15, 129);
-            label13.TabIndex = 12;
-            label13.Tag = "wall";
-            // 
-            // label12
-            // 
-            label12.BackColor = Color.MediumAquamarine;
-            label12.Location = new Point(260, 44);
-            label12.Name = "label12";
-            label12.Size = new Size(15, 269);
-            label12.TabIndex = 11;
-            label12.Tag = "wall";
-            // 
-            // label11
-            // 
-            label11.BackColor = Color.MediumAquamarine;
-            label11.Location = new Point(223, 35);
-            label11.Name = "label11";
-            label11.Size = new Size(15, 51);
-            label11.TabIndex = 10;
-            label11.Tag = "wall";
-            // 
-            // label10
-            // 
-            label10.BackColor = Color.MediumAquamarine;
-            label10.Location = new Point(159, 54);
-            label10.Name = "label10";
-            label10.Size = new Size(15, 249);
-            label10.TabIndex = 9;
-            label10.Tag = "wall";
-            // 
-            // label9
-            // 
-            label9.BackColor = Color.MediumAquamarine;
-            label9.Location = new Point(82, 290);
-            label9.Name = "label9";
-            label9.Size = new Size(15, 55);
-            label9.TabIndex = 8;
-            label9.Tag = "wall";
-            // 
-            // label8
-            // 
-            label8.BackColor = Color.MediumAquamarine;
-            label8.Location = new Point(46, 232);
-            label8.Name = "label8";
-            label8.Size = new Size(15, 113);
-            label8.TabIndex = 7;
-            label8.Tag = "wall";
-            // 
-            // label7
-            // 
-            label7.BackColor = Color.MediumAquamarine;
-            label7.Location = new Point(125, 143);
-            label7.Name = "label7";
-            label7.Size = new Size(15, 103);
-            label7.TabIndex = 6;
-            label7.Tag = "wall";
-            // 
-            // label6
-            // 
-            label6.BackColor = Color.MediumAquamarine;
-            label6.Location = new Point(125, 71);
-            label6.Name = "label6";
-            label6.Size = new Size(15, 49);
-            label6.TabIndex = 5;
-            label6.Tag = "wall";
-            // 
-            // label5
-            // 
-            label5.BackColor = Color.MediumAquamarine;
-            label5.Location = new Point(82, 88);
-            label5.Name = "label5";
-            label5.Size = new Size(15, 55);
-            label5.TabIndex = 4;
-            label5.Tag = "wall";
-            // 
-            // label4
-            // 
-            label4.BackColor = Color.MediumAquamarine;
-            label4.Location = new Point(-2, 56);
-            label4.Name = "label4";
-            label4.Size = new Size(15, 541);
-            label4.TabIndex = 3;
-            label4.Tag = "wall";
-            // 
-            // label3
-            // 
-            label3.BackColor = Color.MediumAquamarine;
-            label3.Location = new Point(581, 15);
-            label3.Name = "label3";
-            label3.Size = new Size(15, 558);
-            label3.TabIndex = 2;
-            label3.Tag = "wall";
-            // 
-            // label2
-            // 
-            label2.BackColor = Color.MediumAquamarine;
-            label2.Location = new Point(-2, 597);
-            label2.Name = "label2";
-            label2.Size = new Size(598, 15);
-            label2.TabIndex = 1;
-            label2.Tag = "wall";
-            // 
-            // label1
-            // 
-            label1.BackColor = Color.MediumAquamarine;
-            label1.Location = new Point(-2, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(598, 15);
-            label1.TabIndex = 0;
-            label1.Tag = "wall";
+            // Start_lbl
+            // 
+            Start_lbl.AutoSize = true;
+            Start_lbl.Location = new Point(10, 30);
+            Start_lbl.Name = "Start_lbl";
+            Start_lbl.Size = new Size(44, 20);
+            Start_lbl.TabIndex = 104;
+            Start_lbl.Text = "Başla";
             // 
             // Finish_lbl
             // 
@@ -1186,15 +268,1037 @@
             Finish_lbl.Size = new Size(36, 20);
             Finish_lbl.TabIndex = 103;
             Finish_lbl.Text = "Bitir";
+            Finish_lbl.MouseEnter += Finish_lbl_MouseEnter;
             // 
-            // Start_lbl
+            // label103
             // 
-            Start_lbl.AutoSize = true;
-            Start_lbl.Location = new Point(10, 30);
-            Start_lbl.Name = "Start_lbl";
-            Start_lbl.Size = new Size(44, 20);
-            Start_lbl.TabIndex = 104;
-            Start_lbl.Text = "Başla";
+            label103.BackColor = Color.MediumAquamarine;
+            label103.Location = new Point(-2, 9);
+            label103.Name = "label103";
+            label103.Size = new Size(5, 50);
+            label103.TabIndex = 102;
+            label103.Tag = "wall";
+            label103.MouseEnter += Wall_MouseEnter;
+            // 
+            // label102
+            // 
+            label102.BackColor = Color.MediumAquamarine;
+            label102.Location = new Point(591, 560);
+            label102.Name = "label102";
+            label102.Size = new Size(5, 50);
+            label102.TabIndex = 101;
+            label102.Tag = "wall";
+            label102.MouseEnter += Wall_MouseEnter;
+            // 
+            // label101
+            // 
+            label101.BackColor = Color.MediumAquamarine;
+            label101.Location = new Point(334, 327);
+            label101.Name = "label101";
+            label101.Size = new Size(42, 15);
+            label101.TabIndex = 100;
+            label101.Tag = "wall";
+            label101.MouseEnter += Wall_MouseEnter;
+            // 
+            // label100
+            // 
+            label100.BackColor = Color.MediumAquamarine;
+            label100.Location = new Point(273, 463);
+            label100.Name = "label100";
+            label100.Size = new Size(15, 46);
+            label100.TabIndex = 99;
+            label100.Tag = "wall";
+            label100.MouseEnter += Wall_MouseEnter;
+            // 
+            // label99
+            // 
+            label99.BackColor = Color.MediumAquamarine;
+            label99.Location = new Point(490, 331);
+            label99.Name = "label99";
+            label99.Size = new Size(31, 15);
+            label99.TabIndex = 98;
+            label99.Tag = "wall";
+            label99.MouseEnter += Wall_MouseEnter;
+            // 
+            // label98
+            // 
+            label98.BackColor = Color.MediumAquamarine;
+            label98.Location = new Point(431, 331);
+            label98.Name = "label98";
+            label98.Size = new Size(42, 15);
+            label98.TabIndex = 97;
+            label98.Tag = "wall";
+            label98.MouseEnter += Wall_MouseEnter;
+            // 
+            // label97
+            // 
+            label97.BackColor = Color.MediumAquamarine;
+            label97.Location = new Point(377, 288);
+            label97.Name = "label97";
+            label97.Size = new Size(175, 15);
+            label97.TabIndex = 96;
+            label97.Tag = "wall";
+            label97.MouseEnter += Wall_MouseEnter;
+            // 
+            // label94
+            // 
+            label94.BackColor = Color.MediumAquamarine;
+            label94.Location = new Point(440, 532);
+            label94.Name = "label94";
+            label94.Size = new Size(15, 78);
+            label94.TabIndex = 95;
+            label94.Tag = "wall";
+            label94.MouseEnter += Wall_MouseEnter;
+            // 
+            // label95
+            // 
+            label95.BackColor = Color.MediumAquamarine;
+            label95.Location = new Point(458, 292);
+            label95.Name = "label95";
+            label95.Size = new Size(15, 50);
+            label95.TabIndex = 94;
+            label95.Tag = "wall";
+            label95.MouseEnter += Wall_MouseEnter;
+            // 
+            // label96
+            // 
+            label96.BackColor = Color.MediumAquamarine;
+            label96.Location = new Point(490, 522);
+            label96.Name = "label96";
+            label96.Size = new Size(15, 44);
+            label96.TabIndex = 93;
+            label96.Tag = "wall";
+            label96.MouseEnter += Wall_MouseEnter;
+            // 
+            // label93
+            // 
+            label93.BackColor = Color.MediumAquamarine;
+            label93.Location = new Point(537, 261);
+            label93.Name = "label93";
+            label93.Size = new Size(15, 84);
+            label93.TabIndex = 92;
+            label93.Tag = "wall";
+            label93.MouseEnter += Wall_MouseEnter;
+            // 
+            // label92
+            // 
+            label92.BackColor = Color.MediumAquamarine;
+            label92.Location = new Point(516, 205);
+            label92.Name = "label92";
+            label92.Size = new Size(15, 35);
+            label92.TabIndex = 91;
+            label92.Tag = "wall";
+            label92.MouseEnter += Wall_MouseEnter;
+            // 
+            // label91
+            // 
+            label91.BackColor = Color.MediumAquamarine;
+            label91.Location = new Point(524, 558);
+            label91.Name = "label91";
+            label91.Size = new Size(15, 25);
+            label91.TabIndex = 90;
+            label91.Tag = "wall";
+            label91.MouseEnter += Wall_MouseEnter;
+            // 
+            // label87
+            // 
+            label87.BackColor = Color.MediumAquamarine;
+            label87.Location = new Point(400, 532);
+            label87.Name = "label87";
+            label87.Size = new Size(55, 15);
+            label87.TabIndex = 89;
+            label87.Tag = "wall";
+            label87.MouseEnter += Wall_MouseEnter;
+            // 
+            // label88
+            // 
+            label88.BackColor = Color.MediumAquamarine;
+            label88.Location = new Point(355, 568);
+            label88.Name = "label88";
+            label88.Size = new Size(60, 15);
+            label88.TabIndex = 88;
+            label88.Tag = "wall";
+            label88.MouseEnter += Wall_MouseEnter;
+            // 
+            // label89
+            // 
+            label89.BackColor = Color.MediumAquamarine;
+            label89.Location = new Point(534, 558);
+            label89.Name = "label89";
+            label89.Size = new Size(62, 15);
+            label89.TabIndex = 87;
+            label89.Tag = "wall";
+            label89.MouseEnter += Wall_MouseEnter;
+            // 
+            // label90
+            // 
+            label90.BackColor = Color.MediumAquamarine;
+            label90.Location = new Point(377, 378);
+            label90.Name = "label90";
+            label90.Size = new Size(214, 15);
+            label90.TabIndex = 86;
+            label90.Tag = "wall";
+            label90.MouseEnter += Wall_MouseEnter;
+            // 
+            // label84
+            // 
+            label84.BackColor = Color.MediumAquamarine;
+            label84.Location = new Point(188, 494);
+            label84.Name = "label84";
+            label84.Size = new Size(15, 79);
+            label84.TabIndex = 85;
+            label84.Tag = "wall";
+            label84.MouseEnter += Wall_MouseEnter;
+            // 
+            // label85
+            // 
+            label85.BackColor = Color.MediumAquamarine;
+            label85.Location = new Point(458, 416);
+            label85.Name = "label85";
+            label85.Size = new Size(15, 53);
+            label85.TabIndex = 84;
+            label85.Tag = "wall";
+            label85.MouseEnter += Wall_MouseEnter;
+            // 
+            // label86
+            // 
+            label86.BackColor = Color.MediumAquamarine;
+            label86.Location = new Point(490, 331);
+            label86.Name = "label86";
+            label86.Size = new Size(15, 138);
+            label86.TabIndex = 83;
+            label86.Tag = "wall";
+            label86.MouseEnter += Wall_MouseEnter;
+            // 
+            // label81
+            // 
+            label81.BackColor = Color.MediumAquamarine;
+            label81.Location = new Point(260, 378);
+            label81.Name = "label81";
+            label81.Size = new Size(15, 51);
+            label81.TabIndex = 82;
+            label81.Tag = "wall";
+            label81.MouseEnter += Wall_MouseEnter;
+            // 
+            // label82
+            // 
+            label82.BackColor = Color.MediumAquamarine;
+            label82.Location = new Point(313, 416);
+            label82.Name = "label82";
+            label82.Size = new Size(15, 59);
+            label82.TabIndex = 81;
+            label82.Tag = "wall";
+            label82.MouseEnter += Wall_MouseEnter;
+            // 
+            // label83
+            // 
+            label83.BackColor = Color.MediumAquamarine;
+            label83.Location = new Point(209, 416);
+            label83.Name = "label83";
+            label83.Size = new Size(15, 59);
+            label83.TabIndex = 80;
+            label83.Tag = "wall";
+            label83.MouseEnter += Wall_MouseEnter;
+            // 
+            // label78
+            // 
+            label78.BackColor = Color.MediumAquamarine;
+            label78.Location = new Point(534, 424);
+            label78.Name = "label78";
+            label78.Size = new Size(15, 108);
+            label78.TabIndex = 79;
+            label78.Tag = "wall";
+            label78.MouseEnter += Wall_MouseEnter;
+            // 
+            // label79
+            // 
+            label79.BackColor = Color.MediumAquamarine;
+            label79.Location = new Point(347, 540);
+            label79.Name = "label79";
+            label79.Size = new Size(15, 72);
+            label79.TabIndex = 78;
+            label79.Tag = "wall";
+            label79.MouseEnter += Wall_MouseEnter;
+            // 
+            // label80
+            // 
+            label80.BackColor = Color.MediumAquamarine;
+            label80.Location = new Point(400, 509);
+            label80.Name = "label80";
+            label80.Size = new Size(15, 38);
+            label80.TabIndex = 77;
+            label80.Tag = "wall";
+            label80.MouseEnter += Wall_MouseEnter;
+            // 
+            // label77
+            // 
+            label77.BackColor = Color.MediumAquamarine;
+            label77.Location = new Point(315, 494);
+            label77.Name = "label77";
+            label77.Size = new Size(15, 79);
+            label77.TabIndex = 76;
+            label77.Tag = "wall";
+            label77.MouseEnter += Wall_MouseEnter;
+            // 
+            // label76
+            // 
+            label76.BackColor = Color.MediumAquamarine;
+            label76.Location = new Point(416, 455);
+            label76.Name = "label76";
+            label76.Size = new Size(15, 54);
+            label76.TabIndex = 75;
+            label76.Tag = "wall";
+            label76.MouseEnter += Wall_MouseEnter;
+            // 
+            // label75
+            // 
+            label75.BackColor = Color.MediumAquamarine;
+            label75.Location = new Point(347, 455);
+            label75.Name = "label75";
+            label75.Size = new Size(15, 54);
+            label75.TabIndex = 74;
+            label75.Tag = "wall";
+            label75.MouseEnter += Wall_MouseEnter;
+            // 
+            // label74
+            // 
+            label74.BackColor = Color.MediumAquamarine;
+            label74.Location = new Point(431, 225);
+            label74.Name = "label74";
+            label74.Size = new Size(100, 15);
+            label74.TabIndex = 73;
+            label74.Tag = "wall";
+            label74.MouseEnter += Wall_MouseEnter;
+            // 
+            // label73
+            // 
+            label73.BackColor = Color.MediumAquamarine;
+            label73.Location = new Point(315, 494);
+            label73.Name = "label73";
+            label73.Size = new Size(234, 15);
+            label73.TabIndex = 72;
+            label73.Tag = "wall";
+            label73.MouseEnter += Wall_MouseEnter;
+            // 
+            // label72
+            // 
+            label72.BackColor = Color.MediumAquamarine;
+            label72.Location = new Point(315, 416);
+            label72.Name = "label72";
+            label72.Size = new Size(158, 15);
+            label72.TabIndex = 71;
+            label72.Tag = "wall";
+            label72.MouseEnter += Wall_MouseEnter;
+            // 
+            // label71
+            // 
+            label71.BackColor = Color.MediumAquamarine;
+            label71.Location = new Point(188, 558);
+            label71.Name = "label71";
+            label71.Size = new Size(100, 15);
+            label71.TabIndex = 70;
+            label71.Tag = "wall";
+            label71.MouseEnter += Wall_MouseEnter;
+            // 
+            // label70
+            // 
+            label70.BackColor = Color.MediumAquamarine;
+            label70.Location = new Point(285, 525);
+            label70.Name = "label70";
+            label70.Size = new Size(43, 15);
+            label70.TabIndex = 69;
+            label70.Tag = "wall";
+            label70.MouseEnter += Wall_MouseEnter;
+            // 
+            // label69
+            // 
+            label69.BackColor = Color.MediumAquamarine;
+            label69.Location = new Point(136, 460);
+            label69.Name = "label69";
+            label69.Size = new Size(178, 15);
+            label69.TabIndex = 68;
+            label69.Tag = "wall";
+            label69.MouseEnter += Wall_MouseEnter;
+            // 
+            // label68
+            // 
+            label68.BackColor = Color.MediumAquamarine;
+            label68.Location = new Point(188, 494);
+            label68.Name = "label68";
+            label68.Size = new Size(100, 15);
+            label68.TabIndex = 67;
+            label68.Tag = "wall";
+            label68.MouseEnter += Wall_MouseEnter;
+            // 
+            // label67
+            // 
+            label67.BackColor = Color.MediumAquamarine;
+            label67.Location = new Point(458, 454);
+            label67.Name = "label67";
+            label67.Size = new Size(36, 15);
+            label67.TabIndex = 66;
+            label67.Tag = "wall";
+            label67.MouseEnter += Wall_MouseEnter;
+            // 
+            // label66
+            // 
+            label66.BackColor = Color.MediumAquamarine;
+            label66.Location = new Point(475, 522);
+            label66.Name = "label66";
+            label66.Size = new Size(74, 15);
+            label66.TabIndex = 65;
+            label66.Tag = "wall";
+            label66.MouseEnter += Wall_MouseEnter;
+            // 
+            // label65
+            // 
+            label65.BackColor = Color.MediumAquamarine;
+            label65.Location = new Point(516, 190);
+            label65.Name = "label65";
+            label65.Size = new Size(33, 15);
+            label65.TabIndex = 64;
+            label65.Tag = "wall";
+            label65.MouseEnter += Wall_MouseEnter;
+            // 
+            // label64
+            // 
+            label64.BackColor = Color.MediumAquamarine;
+            label64.Location = new Point(82, 421);
+            label64.Name = "label64";
+            label64.Size = new Size(15, 116);
+            label64.TabIndex = 63;
+            label64.Tag = "wall";
+            label64.MouseEnter += Wall_MouseEnter;
+            // 
+            // label63
+            // 
+            label63.BackColor = Color.MediumAquamarine;
+            label63.Location = new Point(238, 494);
+            label63.Name = "label63";
+            label63.Size = new Size(15, 46);
+            label63.TabIndex = 62;
+            label63.Tag = "wall";
+            label63.MouseEnter += Wall_MouseEnter;
+            // 
+            // label62
+            // 
+            label62.BackColor = Color.MediumAquamarine;
+            label62.Location = new Point(299, 278);
+            label62.Name = "label62";
+            label62.Size = new Size(15, 68);
+            label62.TabIndex = 61;
+            label62.Tag = "wall";
+            label62.MouseEnter += Wall_MouseEnter;
+            // 
+            // label61
+            // 
+            label61.BackColor = Color.MediumAquamarine;
+            label61.Location = new Point(136, 460);
+            label61.Name = "label61";
+            label61.Size = new Size(15, 38);
+            label61.TabIndex = 60;
+            label61.Tag = "wall";
+            label61.MouseEnter += Wall_MouseEnter;
+            // 
+            // label60
+            // 
+            label60.BackColor = Color.MediumAquamarine;
+            label60.Location = new Point(118, 558);
+            label60.Name = "label60";
+            label60.Size = new Size(15, 45);
+            label60.TabIndex = 59;
+            label60.Tag = "wall";
+            label60.MouseEnter += Wall_MouseEnter;
+            // 
+            // label59
+            // 
+            label59.BackColor = Color.MediumAquamarine;
+            label59.Location = new Point(377, 416);
+            label59.Name = "label59";
+            label59.Size = new Size(15, 59);
+            label59.TabIndex = 58;
+            label59.Tag = "wall";
+            label59.MouseEnter += Wall_MouseEnter;
+            // 
+            // label58
+            // 
+            label58.BackColor = Color.MediumAquamarine;
+            label58.Location = new Point(33, 558);
+            label58.Name = "label58";
+            label58.Size = new Size(100, 15);
+            label58.TabIndex = 57;
+            label58.Tag = "wall";
+            label58.MouseEnter += Wall_MouseEnter;
+            // 
+            // label57
+            // 
+            label57.BackColor = Color.MediumAquamarine;
+            label57.Location = new Point(3, 454);
+            label57.Name = "label57";
+            label57.Size = new Size(58, 15);
+            label57.TabIndex = 56;
+            label57.Tag = "wall";
+            label57.MouseEnter += Wall_MouseEnter;
+            // 
+            // label56
+            // 
+            label56.BackColor = Color.MediumAquamarine;
+            label56.Location = new Point(33, 494);
+            label56.Name = "label56";
+            label56.Size = new Size(64, 15);
+            label56.TabIndex = 55;
+            label56.Tag = "wall";
+            label56.MouseEnter += Wall_MouseEnter;
+            // 
+            // label55
+            // 
+            label55.BackColor = Color.MediumAquamarine;
+            label55.Location = new Point(82, 522);
+            label55.Name = "label55";
+            label55.Size = new Size(121, 15);
+            label55.TabIndex = 54;
+            label55.Tag = "wall";
+            label55.MouseEnter += Wall_MouseEnter;
+            // 
+            // label54
+            // 
+            label54.BackColor = Color.MediumAquamarine;
+            label54.Location = new Point(175, 378);
+            label54.Name = "label54";
+            label54.Size = new Size(174, 15);
+            label54.TabIndex = 53;
+            label54.Tag = "wall";
+            label54.MouseEnter += Wall_MouseEnter;
+            // 
+            // label53
+            // 
+            label53.BackColor = Color.MediumAquamarine;
+            label53.Location = new Point(46, 421);
+            label53.Name = "label53";
+            label53.Size = new Size(137, 15);
+            label53.TabIndex = 52;
+            label53.Tag = "wall";
+            label53.MouseEnter += Wall_MouseEnter;
+            // 
+            // label52
+            // 
+            label52.BackColor = Color.MediumAquamarine;
+            label52.Location = new Point(299, 277);
+            label52.Name = "label52";
+            label52.Size = new Size(50, 15);
+            label52.TabIndex = 51;
+            label52.Tag = "wall";
+            label52.MouseEnter += Wall_MouseEnter;
+            // 
+            // label51
+            // 
+            label51.BackColor = Color.MediumAquamarine;
+            label51.Location = new Point(209, 331);
+            label51.Name = "label51";
+            label51.Size = new Size(105, 15);
+            label51.TabIndex = 50;
+            label51.Tag = "wall";
+            label51.MouseEnter += Wall_MouseEnter;
+            // 
+            // label50
+            // 
+            label50.BackColor = Color.MediumAquamarine;
+            label50.Location = new Point(168, 175);
+            label50.Name = "label50";
+            label50.Size = new Size(56, 15);
+            label50.TabIndex = 49;
+            label50.Tag = "wall";
+            label50.MouseEnter += Wall_MouseEnter;
+            // 
+            // label49
+            // 
+            label49.BackColor = Color.MediumAquamarine;
+            label49.Location = new Point(490, 154);
+            label49.Name = "label49";
+            label49.Size = new Size(31, 15);
+            label49.TabIndex = 48;
+            label49.Tag = "wall";
+            label49.MouseEnter += Wall_MouseEnter;
+            // 
+            // label48
+            // 
+            label48.BackColor = Color.MediumAquamarine;
+            label48.Location = new Point(10, 378);
+            label48.Name = "label48";
+            label48.Size = new Size(123, 15);
+            label48.TabIndex = 47;
+            label48.Tag = "wall";
+            label48.MouseEnter += Wall_MouseEnter;
+            // 
+            // label47
+            // 
+            label47.BackColor = Color.MediumAquamarine;
+            label47.Location = new Point(506, 128);
+            label47.Name = "label47";
+            label47.Size = new Size(78, 15);
+            label47.TabIndex = 46;
+            label47.Tag = "wall";
+            label47.MouseEnter += Wall_MouseEnter;
+            // 
+            // label46
+            // 
+            label46.BackColor = Color.MediumAquamarine;
+            label46.Location = new Point(479, 101);
+            label46.Name = "label46";
+            label46.Size = new Size(42, 15);
+            label46.TabIndex = 45;
+            label46.Tag = "wall";
+            label46.MouseEnter += Wall_MouseEnter;
+            // 
+            // label45
+            // 
+            label45.BackColor = Color.MediumAquamarine;
+            label45.Location = new Point(400, 186);
+            label45.Name = "label45";
+            label45.Size = new Size(15, 172);
+            label45.TabIndex = 44;
+            label45.Tag = "wall";
+            label45.MouseEnter += Wall_MouseEnter;
+            // 
+            // label44
+            // 
+            label44.BackColor = Color.MediumAquamarine;
+            label44.Location = new Point(440, 55);
+            label44.Name = "label44";
+            label44.Size = new Size(15, 146);
+            label44.TabIndex = 43;
+            label44.Tag = "wall";
+            label44.MouseEnter += Wall_MouseEnter;
+            // 
+            // label43
+            // 
+            label43.BackColor = Color.MediumAquamarine;
+            label43.Location = new Point(506, 44);
+            label43.Name = "label43";
+            label43.Size = new Size(15, 45);
+            label43.TabIndex = 42;
+            label43.Tag = "wall";
+            label43.MouseEnter += Wall_MouseEnter;
+            // 
+            // label42
+            // 
+            label42.BackColor = Color.MediumAquamarine;
+            label42.Location = new Point(506, 116);
+            label42.Name = "label42";
+            label42.Size = new Size(15, 53);
+            label42.TabIndex = 41;
+            label42.Tag = "wall";
+            label42.MouseEnter += Wall_MouseEnter;
+            // 
+            // label41
+            // 
+            label41.BackColor = Color.MediumAquamarine;
+            label41.Location = new Point(484, 154);
+            label41.Name = "label41";
+            label41.Size = new Size(10, 86);
+            label41.TabIndex = 40;
+            label41.Tag = "wall";
+            label41.MouseEnter += Wall_MouseEnter;
+            // 
+            // label40
+            // 
+            label40.BackColor = Color.MediumAquamarine;
+            label40.Location = new Point(33, 540);
+            label40.Name = "label40";
+            label40.Size = new Size(15, 33);
+            label40.TabIndex = 39;
+            label40.Tag = "wall";
+            label40.MouseEnter += Wall_MouseEnter;
+            // 
+            // label39
+            // 
+            label39.BackColor = Color.MediumAquamarine;
+            label39.Location = new Point(334, 309);
+            label39.Name = "label39";
+            label39.Size = new Size(15, 84);
+            label39.TabIndex = 38;
+            label39.Tag = "wall";
+            label39.MouseEnter += Wall_MouseEnter;
+            // 
+            // label38
+            // 
+            label38.BackColor = Color.MediumAquamarine;
+            label38.Location = new Point(209, 290);
+            label38.Name = "label38";
+            label38.Size = new Size(15, 55);
+            label38.TabIndex = 37;
+            label38.Tag = "wall";
+            label38.MouseEnter += Wall_MouseEnter;
+            // 
+            // label37
+            // 
+            label37.BackColor = Color.MediumAquamarine;
+            label37.Location = new Point(125, 330);
+            label37.Name = "label37";
+            label37.Size = new Size(15, 63);
+            label37.TabIndex = 36;
+            label37.Tag = "wall";
+            label37.MouseEnter += Wall_MouseEnter;
+            // 
+            // label36
+            // 
+            label36.BackColor = Color.MediumAquamarine;
+            label36.Location = new Point(168, 330);
+            label36.Name = "label36";
+            label36.Size = new Size(15, 106);
+            label36.TabIndex = 35;
+            label36.Tag = "wall";
+            label36.MouseEnter += Wall_MouseEnter;
+            // 
+            // label35
+            // 
+            label35.BackColor = Color.MediumAquamarine;
+            label35.Location = new Point(553, 35);
+            label35.Name = "label35";
+            label35.Size = new Size(31, 15);
+            label35.TabIndex = 34;
+            label35.Tag = "wall";
+            label35.MouseEnter += Wall_MouseEnter;
+            // 
+            // label34
+            // 
+            label34.BackColor = Color.MediumAquamarine;
+            label34.Location = new Point(506, 74);
+            label34.Name = "label34";
+            label34.Size = new Size(43, 15);
+            label34.TabIndex = 33;
+            label34.Tag = "wall";
+            label34.MouseEnter += Wall_MouseEnter;
+            // 
+            // label33
+            // 
+            label33.BackColor = Color.MediumAquamarine;
+            label33.Location = new Point(440, 128);
+            label33.Name = "label33";
+            label33.Size = new Size(38, 15);
+            label33.TabIndex = 32;
+            label33.Tag = "wall";
+            label33.MouseEnter += Wall_MouseEnter;
+            // 
+            // label32
+            // 
+            label32.BackColor = Color.MediumAquamarine;
+            label32.Location = new Point(440, 44);
+            label32.Name = "label32";
+            label32.Size = new Size(81, 15);
+            label32.TabIndex = 31;
+            label32.Tag = "wall";
+            label32.MouseEnter += Wall_MouseEnter;
+            // 
+            // label31
+            // 
+            label31.BackColor = Color.MediumAquamarine;
+            label31.Location = new Point(400, 186);
+            label31.Name = "label31";
+            label31.Size = new Size(55, 15);
+            label31.TabIndex = 30;
+            label31.Tag = "wall";
+            label31.MouseEnter += Wall_MouseEnter;
+            // 
+            // label30
+            // 
+            label30.BackColor = Color.MediumAquamarine;
+            label30.Location = new Point(207, 215);
+            label30.Name = "label30";
+            label30.Size = new Size(68, 15);
+            label30.TabIndex = 29;
+            label30.Tag = "wall";
+            label30.MouseEnter += Wall_MouseEnter;
+            // 
+            // label29
+            // 
+            label29.BackColor = Color.MediumAquamarine;
+            label29.Location = new Point(221, 128);
+            label29.Name = "label29";
+            label29.Size = new Size(100, 15);
+            label29.TabIndex = 28;
+            label29.Tag = "wall";
+            label29.MouseEnter += Wall_MouseEnter;
+            // 
+            // label28
+            // 
+            label28.BackColor = Color.MediumAquamarine;
+            label28.Location = new Point(309, 231);
+            label28.Name = "label28";
+            label28.Size = new Size(106, 15);
+            label28.TabIndex = 27;
+            label28.Tag = "wall";
+            label28.MouseEnter += Wall_MouseEnter;
+            // 
+            // label27
+            // 
+            label27.BackColor = Color.MediumAquamarine;
+            label27.Location = new Point(347, 127);
+            label27.Name = "label27";
+            label27.Size = new Size(60, 15);
+            label27.TabIndex = 26;
+            label27.Tag = "wall";
+            label27.MouseEnter += Wall_MouseEnter;
+            // 
+            // label26
+            // 
+            label26.BackColor = Color.MediumAquamarine;
+            label26.Location = new Point(260, 44);
+            label26.Name = "label26";
+            label26.Size = new Size(61, 15);
+            label26.TabIndex = 25;
+            label26.Tag = "wall";
+            label26.MouseEnter += Wall_MouseEnter;
+            // 
+            // label25
+            // 
+            label25.BackColor = Color.MediumAquamarine;
+            label25.Location = new Point(299, 87);
+            label25.Name = "label25";
+            label25.Size = new Size(50, 15);
+            label25.TabIndex = 24;
+            label25.Tag = "wall";
+            label25.MouseEnter += Wall_MouseEnter;
+            // 
+            // label24
+            // 
+            label24.BackColor = Color.MediumAquamarine;
+            label24.Location = new Point(168, 71);
+            label24.Name = "label24";
+            label24.Size = new Size(56, 15);
+            label24.TabIndex = 23;
+            label24.Tag = "wall";
+            label24.MouseEnter += Wall_MouseEnter;
+            // 
+            // label23
+            // 
+            label23.BackColor = Color.MediumAquamarine;
+            label23.Location = new Point(82, 290);
+            label23.Name = "label23";
+            label23.Size = new Size(142, 15);
+            label23.TabIndex = 22;
+            label23.Tag = "wall";
+            label23.MouseEnter += Wall_MouseEnter;
+            // 
+            // label22
+            // 
+            label22.BackColor = Color.MediumAquamarine;
+            label22.Location = new Point(61, 330);
+            label22.Name = "label22";
+            label22.Size = new Size(36, 15);
+            label22.TabIndex = 21;
+            label22.Tag = "wall";
+            label22.MouseEnter += Wall_MouseEnter;
+            // 
+            // label21
+            // 
+            label21.BackColor = Color.MediumAquamarine;
+            label21.Location = new Point(46, 231);
+            label21.Name = "label21";
+            label21.Size = new Size(94, 15);
+            label21.TabIndex = 20;
+            label21.Tag = "wall";
+            label21.MouseEnter += Wall_MouseEnter;
+            // 
+            // label20
+            // 
+            label20.BackColor = Color.MediumAquamarine;
+            label20.Location = new Point(46, 143);
+            label20.Name = "label20";
+            label20.Size = new Size(94, 15);
+            label20.TabIndex = 19;
+            label20.Tag = "wall";
+            label20.MouseEnter += Wall_MouseEnter;
+            // 
+            // label19
+            // 
+            label19.BackColor = Color.MediumAquamarine;
+            label19.Location = new Point(3, 187);
+            label19.Name = "label19";
+            label19.Size = new Size(94, 15);
+            label19.TabIndex = 18;
+            label19.Tag = "wall";
+            label19.MouseEnter += Wall_MouseEnter;
+            // 
+            // label18
+            // 
+            label18.BackColor = Color.MediumAquamarine;
+            label18.Location = new Point(61, 56);
+            label18.Name = "label18";
+            label18.Size = new Size(79, 15);
+            label18.TabIndex = 17;
+            label18.Tag = "wall";
+            label18.MouseEnter += Wall_MouseEnter;
+            // 
+            // label17
+            // 
+            label17.BackColor = Color.MediumAquamarine;
+            label17.Location = new Point(10, 88);
+            label17.Name = "label17";
+            label17.Size = new Size(51, 15);
+            label17.TabIndex = 16;
+            label17.Tag = "wall";
+            label17.MouseEnter += Wall_MouseEnter;
+            // 
+            // label16
+            // 
+            label16.BackColor = Color.MediumAquamarine;
+            label16.Location = new Point(46, 56);
+            label16.Name = "label16";
+            label16.Size = new Size(15, 32);
+            label16.TabIndex = 15;
+            label16.Tag = "wall";
+            label16.MouseEnter += Wall_MouseEnter;
+            // 
+            // label15
+            // 
+            label15.BackColor = Color.MediumAquamarine;
+            label15.Location = new Point(309, 128);
+            label15.Name = "label15";
+            label15.Size = new Size(15, 118);
+            label15.TabIndex = 14;
+            label15.Tag = "wall";
+            label15.MouseEnter += Wall_MouseEnter;
+            // 
+            // label14
+            // 
+            label14.BackColor = Color.MediumAquamarine;
+            label14.Location = new Point(347, 44);
+            label14.Name = "label14";
+            label14.Size = new Size(15, 146);
+            label14.TabIndex = 13;
+            label14.Tag = "wall";
+            label14.MouseEnter += Wall_MouseEnter;
+            // 
+            // label13
+            // 
+            label13.BackColor = Color.MediumAquamarine;
+            label13.Location = new Point(392, 13);
+            label13.Name = "label13";
+            label13.Size = new Size(15, 129);
+            label13.TabIndex = 12;
+            label13.Tag = "wall";
+            label13.MouseEnter += Wall_MouseEnter;
+            // 
+            // label12
+            // 
+            label12.BackColor = Color.MediumAquamarine;
+            label12.Location = new Point(260, 44);
+            label12.Name = "label12";
+            label12.Size = new Size(15, 269);
+            label12.TabIndex = 11;
+            label12.Tag = "wall";
+            label12.MouseEnter += Wall_MouseEnter;
+            // 
+            // label11
+            // 
+            label11.BackColor = Color.MediumAquamarine;
+            label11.Location = new Point(223, 35);
+            label11.Name = "label11";
+            label11.Size = new Size(15, 51);
+            label11.TabIndex = 10;
+            label11.Tag = "wall";
+            label11.MouseEnter += Wall_MouseEnter;
+            // 
+            // label10
+            // 
+            label10.BackColor = Color.MediumAquamarine;
+            label10.Location = new Point(159, 54);
+            label10.Name = "label10";
+            label10.Size = new Size(15, 249);
+            label10.TabIndex = 9;
+            label10.Tag = "wall";
+            label10.MouseEnter += Wall_MouseEnter;
+            // 
+            // label9
+            // 
+            label9.BackColor = Color.MediumAquamarine;
+            label9.Location = new Point(82, 290);
+            label9.Name = "label9";
+            label9.Size = new Size(15, 55);
+            label9.TabIndex = 8;
+            label9.Tag = "wall";
+            label9.MouseEnter += Wall_MouseEnter;
+            // 
+            // label8
+            // 
+            label8.BackColor = Color.MediumAquamarine;
+            label8.Location = new Point(46, 232);
+            label8.Name = "label8";
+            label8.Size = new Size(15, 113);
+            label8.TabIndex = 7;
+            label8.Tag = "wall";
+            label8.MouseEnter += Wall_MouseEnter;
+            // 
+            // label7
+            // 
+            label7.BackColor = Color.MediumAquamarine;
+            label7.Location = new Point(125, 143);
+            label7.Name = "label7";
+            label7.Size = new Size(15, 103);
+            label7.TabIndex = 6;
+            label7.Tag = "wall";
+            label7.MouseEnter += Wall_MouseEnter;
+            // 
+            // label6
+            // 
+            label6.BackColor = Color.MediumAquamarine;
+            label6.Location = new Point(125, 71);
+            label6.Name = "label6";
+            label6.Size = new Size(15, 49);
+            label6.TabIndex = 5;
+            label6.Tag = "wall";
+            label6.MouseEnter += Wall_MouseEnter;
+            // 
+            // label5
+            // 
+            label5.BackColor = Color.MediumAquamarine;
+            label5.Location = new Point(82, 88);
+            label5.Name = "label5";
+            label5.Size = new Size(15, 55);
+            label5.TabIndex = 4;
+            label5.Tag = "wall";
+            label5.MouseEnter += Wall_MouseEnter;
+            // 
+            // label4
+            // 
+            label4.BackColor = Color.MediumAquamarine;
+            label4.Location = new Point(-2, 56);
+            label4.Name = "label4";
+            label4.Size = new Size(15, 541);
+            label4.TabIndex = 3;
+            label4.Tag = "wall";
+            label4.MouseEnter += Wall_MouseEnter;
+            // 
+            // label3
+            // 
+            label3.BackColor = Color.MediumAquamarine;
+            label3.Location = new Point(581, 15);
+            label3.Name = "label3";
+            label3.Size = new Size(15, 558);
+            label3.TabIndex = 2;
+            label3.Tag = "wall";
+            label3.MouseEnter += Wall_MouseEnter;
+            // 
+            // label2
+            // 
+            label2.BackColor = Color.MediumAquamarine;
+            label2.Location = new Point(-2, 597);
+            label2.Name = "label2";
+            label2.Size = new Size(598, 15);
+            label2.TabIndex = 1;
+            label2.Tag = "wall";
+            label2.MouseEnter += Wall_MouseEnter;
+            // 
+            // label1
+            // 
+            label1.BackColor = Color.MediumAquamarine;
+            label1.Location = new Point(-2, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(598, 15);
+            label1.TabIndex = 0;
+            label1.Tag = "wall";
+            label1.MouseEnter += Wall_MouseEnter;
             // 
             // Form1
             // 
