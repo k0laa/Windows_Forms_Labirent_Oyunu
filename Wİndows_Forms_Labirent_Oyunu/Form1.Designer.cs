@@ -1307,6 +1307,7 @@
             ClientSize = new Size(598, 614);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            MaximizeBox = false;
             Name = "Form1";
             Text = "Form1";
             panel1.ResumeLayout(false);
