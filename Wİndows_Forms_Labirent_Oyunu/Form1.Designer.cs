@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            label103 = new Label();
+            label102 = new Label();
+            label101 = new Label();
+            label100 = new Label();
             label99 = new Label();
             label98 = new Label();
             label97 = new Label();
@@ -128,14 +132,18 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            label100 = new Label();
-            label101 = new Label();
+            Finish_lbl = new Label();
+            Start_lbl = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.Fixed3D;
+            panel1.Controls.Add(Start_lbl);
+            panel1.Controls.Add(Finish_lbl);
+            panel1.Controls.Add(label103);
+            panel1.Controls.Add(label102);
             panel1.Controls.Add(label101);
             panel1.Controls.Add(label100);
             panel1.Controls.Add(label99);
@@ -242,6 +250,42 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(598, 614);
             panel1.TabIndex = 0;
+            // 
+            // label103
+            // 
+            label103.BackColor = Color.MediumAquamarine;
+            label103.Location = new Point(-2, 9);
+            label103.Name = "label103";
+            label103.Size = new Size(5, 50);
+            label103.TabIndex = 102;
+            label103.Tag = "wall";
+            // 
+            // label102
+            // 
+            label102.BackColor = Color.MediumAquamarine;
+            label102.Location = new Point(591, 560);
+            label102.Name = "label102";
+            label102.Size = new Size(5, 50);
+            label102.TabIndex = 101;
+            label102.Tag = "wall";
+            // 
+            // label101
+            // 
+            label101.BackColor = Color.MediumAquamarine;
+            label101.Location = new Point(334, 327);
+            label101.Name = "label101";
+            label101.Size = new Size(42, 15);
+            label101.TabIndex = 100;
+            label101.Tag = "wall";
+            // 
+            // label100
+            // 
+            label100.BackColor = Color.MediumAquamarine;
+            label100.Location = new Point(273, 463);
+            label100.Name = "label100";
+            label100.Size = new Size(15, 46);
+            label100.TabIndex = 99;
+            label100.Tag = "wall";
             // 
             // label99
             // 
@@ -1112,7 +1156,7 @@
             label3.BackColor = Color.MediumAquamarine;
             label3.Location = new Point(581, 15);
             label3.Name = "label3";
-            label3.Size = new Size(15, 582);
+            label3.Size = new Size(15, 558);
             label3.TabIndex = 2;
             label3.Tag = "wall";
             // 
@@ -1134,23 +1178,23 @@
             label1.TabIndex = 0;
             label1.Tag = "wall";
             // 
-            // label100
+            // Finish_lbl
             // 
-            label100.BackColor = Color.MediumAquamarine;
-            label100.Location = new Point(273, 463);
-            label100.Name = "label100";
-            label100.Size = new Size(15, 46);
-            label100.TabIndex = 99;
-            label100.Tag = "wall";
+            Finish_lbl.AutoSize = true;
+            Finish_lbl.Location = new Point(545, 577);
+            Finish_lbl.Name = "Finish_lbl";
+            Finish_lbl.Size = new Size(36, 20);
+            Finish_lbl.TabIndex = 103;
+            Finish_lbl.Text = "Bitir";
             // 
-            // label101
+            // Start_lbl
             // 
-            label101.BackColor = Color.MediumAquamarine;
-            label101.Location = new Point(334, 327);
-            label101.Name = "label101";
-            label101.Size = new Size(42, 15);
-            label101.TabIndex = 100;
-            label101.Tag = "wall";
+            Start_lbl.AutoSize = true;
+            Start_lbl.Location = new Point(10, 30);
+            Start_lbl.Name = "Start_lbl";
+            Start_lbl.Size = new Size(44, 20);
+            Start_lbl.TabIndex = 104;
+            Start_lbl.Text = "Başla";
             // 
             // Form1
             // 
@@ -1162,6 +1206,7 @@
             Name = "Form1";
             Text = "Form1";
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -1269,5 +1314,9 @@
         private Label label91;
         private Label label101;
         private Label label100;
+        private Label label103;
+        private Label label102;
+        private Label Finish_lbl;
+        private Label Start_lbl;
     }
 }
